@@ -1,2 +1,2 @@
 # andyvero_website
-September 14, 2024
+Wedding date: September 14, 2024
