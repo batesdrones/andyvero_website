@@ -1,2 +1,2 @@
 # andyvero_website
-#September 14, 2024
+September 14, 2024
