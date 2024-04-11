@@ -11,6 +11,30 @@ URL:http://www.chris-creed.com
 /* ----------- */
 /* -- Tools -- */
 
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap')
+
+
+.mulish-<uniquifier> {
+  font-family: "Mulish", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
+
+
+
+
+
+@font-face {
+	font-family: frogmore;
+	src: url(/fonts/Frogmore.ttf);
+  }
+
+#frogmore {
+	font-family: frogmore; 
+	font-size: 200px;}
+
 .line{
 	clear:both;
 	border-bottom:2px solid #eee;
@@ -39,6 +63,8 @@ body{
 h1{
 	font-size:60px;
 	margin:30px 0 15px 0;
+	font-family:frogmore;
+	
 }
 h2{
 	font-size:22px;
@@ -98,7 +124,9 @@ ol, ul{
 /* -- Header -- */
 /* ------------ */
 #header{
-	padding:50px 0 0 0;
+	padding:100px 0 0 0px;
+	font-family: mulish;
+
 }
 .logo{
 	margin:0 0 -15px 0;
@@ -111,13 +139,14 @@ ol, ul{
 	width:100%;
 	overflow:hidden;
 	position:relative;
-	margin:30px 0 10px 0;
-	padding:20px 0 16px;
+	margin:30px 0 0px 0;
+	padding:20px 0 0 0;
+	font-family: mulish;
 }
 #nav ul{
 	clear:left;
 	float:left;
-	margin:0;
+	margin:60px;
 	padding:0;
 	position:relative;
 	left:50%;
@@ -345,3 +374,4 @@ ul.thumbs li a img{
 	text-align:center;
 	padding:8px 0 0 0;
 }
+
