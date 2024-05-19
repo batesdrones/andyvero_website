@@ -31,6 +31,7 @@ URL:http://www.chris-creed.com
 	src: url(/fonts/Frogmore.ttf);
   }
 
+
 #frogmore {
 	font-family: frogmore; 
 	font-size: 200px;}
@@ -52,8 +53,8 @@ URL:http://www.chris-creed.com
 	text-align:center;
 }
 body{
-	background:url(../images/main-bg.jpg) repeat-x;
-	background-color:#fff;
+	
+	background-color:#ffefd5;
 	color:#555;
 	line-height:24px;
 	font-family:Arial;
@@ -61,7 +62,7 @@ body{
 	text-align:center;
 }
 h1{
-	font-size:60px;
+	font-size:50px;
 	margin:30px 0 15px 0;
 	font-family:frogmore;
 	
@@ -104,7 +105,7 @@ ol, ul{
 /* ----------------- */
 #main{
 	float:left;
-	padding:70px 0 0 0;
+	padding:0px 0 0 0;
 	min-height:700px;
 	width:100%;
 }
@@ -126,6 +127,7 @@ ol, ul{
 #header{
 	padding:100px 0 0 0px;
 	font-family: mulish;
+	
 
 }
 .logo{
