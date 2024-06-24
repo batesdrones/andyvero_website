@@ -1,54 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>RSVP</title>
-<meta charset="utf-8">
-<link type="text/css" rel="stylesheet" href="styles/galleriffic.css"/>
-<link type="text/css" rel="stylesheet" href="styles/style.css" />
-<script type="text/javascript" src="js/jquery-1.3.2.js"></script>
-<script type="text/javascript" src="js/jquery.opacityrollover.js"></script>
-<script type="text/javascript" src="js/jquery.galleriffic.js"></script>
-<script type="text/javascript" src="js/gallery-settings.js"></script>
-<!--[if IE 6]>
-<script src="js/ie6-transparency.js"></script>
-<script>DD_belatedPNG.fix('#header .logo img, .subtitle img, .slideshow-container, .navigation-container #thumbs .thumbs li .thumb img, .navigation a.next, .footer-line, #sidebar .author-photo, .line, .commentlist .comment-reply-link, #contact-page #contact .submit');</script>
-<link type="text/css" rel="stylesheet" type="text/css" href="styles/ie6.css" />
-<![endif]-->
-<!--[if IE 7]><link type="text/css" rel="stylesheet" type="text/css" href="styles/ie7.css" /><![endif]-->
-<!--[if IE 8]><link type="text/css" rel="stylesheet" type="text/css" href="styles/ie8.css" /><![endif]-->
+    <meta charset="UTF-8">
+    <title>RSVP</title>
+    <link type="text/css" rel="stylesheet" href="styles/style.css" />
 </head>
 <body>
-<div id="wrap">
-  <div id="header">
-    <p id="frogmore"> Andy & Vero</p>
-    <div class="logo"><a href="#"><img src="" alt="" /></a></div>
+    <div id="wrap">
+        <div id="header">
+            <p id="frogmore"> Andy & Vero</p>
+            <div id="nav">
+                <ul id="nav-pages">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="plan.html">Plan</a></li>
+                    <li><a href="lodging.html">Lodging</a></li>
+                    <li><a href="https://www.zola.com/registry/veronicaandandy2024" target="_blank">Registry</a></li>
+                    <li><a href="rsvp.html" class="current">RSVP</a></li>
+                </ul>
+            </div>
+        </div>
+        <div id="frontpage-content">
+            <h2>To RSVP, please enter the following information:</h2>
+            <form id="rsvpForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required><br><br>
 
-    <!--end logo-->
-  
-    <!--end subtitle-->
-    <div id="nav">
-      <ul id="nav-pages">
-        <li><a href="index.html" class="current">Home </a></li>
-        <li><a href="plan.html">Plan </a></li>
-        <li><a href="lodging.html">Lodging </a></li>
-        <li><a href="https://www.zola.com/registry/veronicaandandy2024" target=”_blank”>Registry </a></li>
-        <li><a href="rsvp.html">RSVP </a></li>
-      </ul>
-      <!--end nav-pages-->
+                <label for="attending">Attending:</label>
+                <select id="attending" name="attending" required>
+                    <option value="yes">Yes</option>
+                    <option value="no">No</option>
+                    <option value="not sure">Not Sure</option>
+                </select><br><br>
+
+                <label for="partySize">Number in Party:</label>
+                <input type="number" id="partySize" name="partySize" min="1" required><br><br>
+
+                <input type="submit" value="Submit RSVP">
+            </form>
+        </div>
     </div>
-    <!--end nav-->
-  </div>
-  <!--end header-->
-  <div id="frontpage-content">
-    <h2>To RSVP, please enter the following information:</h2>
-  </div>
-  <!--end frontpage-content-->
-  <div id="footer">
-   
-
-  </div>
-  <!--end footer-->
-</div>
-<!--end wrap-->
+    <script src="js/rsvp.js"></script>
 </body>
 </html>
