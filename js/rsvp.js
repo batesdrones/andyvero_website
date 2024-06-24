@@ -1,7 +1,5 @@
-// js/rsvp.js
-
 document.addEventListener('DOMContentLoaded', function() {
-    const GOOGLE_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbzJ_mA1kesc5I5PTe7LXgGzDDQU_BRrHaV6j6lKDJ6NzzggbMJVkC-dcQf9Zmc2ooCEpg/exec';
+    const GOOGLE_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbweOXdeWoVhrqWT5G9i6dpgWdrabXiDbsOQ0nv2TDLk89sZIACK3s5sd38SHTVpCIA5uQ/exec';
 
     document.getElementById('rsvpForm').addEventListener('submit', function(e) {
         e.preventDefault();
