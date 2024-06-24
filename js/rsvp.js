@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
-    const GOOGLE_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbweOXdeWoVhrqWT5G9i6dpgWdrabXiDbsOQ0nv2TDLk89sZIACK3s5sd38SHTVpCIA5uQ/exec';
+    const GOOGLE_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbx5bk2IiBlqv1VTpbkYu2UgaMTok0jMq8Aai_GSwZI0kJnKQIZ7BMjEuVwPULGBcLkKIg/exec';
 
     document.getElementById('rsvpForm').addEventListener('submit', function(e) {
         e.preventDefault();
