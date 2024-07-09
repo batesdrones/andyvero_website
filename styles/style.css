@@ -142,6 +142,9 @@ margin: 15px
 
 
 
+
+
+
 body{
 	
 	background-color:#B32D25 !important;
@@ -222,4 +225,12 @@ div.mycontainer {
   div.mycontainer div {
 	width:50%;  
 	float:left;
+  }
+
+
+
+  #frontpage-content a {
+color: #FFE3D7;
+
+
   }
