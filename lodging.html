@@ -70,24 +70,83 @@
 <div class="container">
 
   <div class="row m-5">
-    <div class="col-12">
-    
-      <h2>Lodging</h2>
-      <p>Needless to say there are MANY options for hotels, AirBNBs, etc.,
-        both in Brooklyn and Manhattan. People have different preferences
-        for location, etc. and there is a lot to choose from - especially those
-        familiar with NYC. Again, September is a busy time in NYC/Brooklyn,
-        so getting hotel reservations sooner than later can help. It is not
-        expected that everyone will stay in the same place, but we did want to
-        give some assistance that might help for those that may not be as
-        familiar with the city.</p>
-      <p>&nbsp;</p>
-      <p>We have blocked some rooms at the Sheraton Brooklyn New York
-        Hotel in Brooklyn - a Marriott property. It is one of the closest to where
-        the wedding and reception will take place and it is also close to Metro
-        stops. Below is a link which will allow you make reservations at this
-        hotel for this room block.</p>
-      <a href="https://www.marriott.com/event-reservations/reservation-link.mi?id=1710520499652&key=GRP&app=resvlink">Book with Group Rate for Bates / Bolivar Wedding</a>
+    <div class="col-12 h3" id="frontpage-content">
+  
+      
+      <button class="accordion h3">Where To Stay</button>
+      <div class="panel">
+        <p class="text-center mt-5">
+          September is a busy time in NYC/Brooklyn, so getting reservations sooner rather
+          than later can help. It is not expected that everyone will stay in the same place,
+          but we did want to give some assistance that might help for those that may not
+          be as familiar with the city.</p>
+          
+          <p class="mt-5"><h1 class="text-center">Sheraton Hotel Brooklyn Wedding Room Block</h1>
+          We have a courtesy hold for a block of rooms for the “Bates/Bolivar Wedding”
+          at the Sheraton (Marriott) located at 228 Duffield Street. It is located in
+          Downtown Brooklyn and is one of the closest hotels to where the wedding and
+          reception will take place. It is also close to several Metro stops.
+          <p class="font-weight-bold">Reservations for one of the blocked rooms must be received before the
+            cut-off date of 7/30/2024.</p> <h2 class="text-center">Below is a link to reserve one of the blocked
+              rooms: </h2></p>
+
+              <div class="text-center h3">
+                <button type="button" href= "https://www.google.com/url?sa=D&q=https://www.marriott.com/events/start.mi%3Fid%3D1710520499652%26amp%3Bkey%3DGRP&ust=1720739400000000&usg=AOvVaw1_eEe3ZOIJv1Hc6qlWIGhZ&hl=en&source=gmail" class="btn btn-light h3 btn-lg" target="_blank">Book your group rate for Bates/ Bolivar Wedding</button>
+              </div>
+
+          
+          <p class="text-center"> <br>
+   
+          There are only a limited number of rooms that could be held, so if you are
+          interested, you may want to follow-up ASAP. Once the number of rooms are
+          taken and/or the deadline passes, the link won’t be available.</p>
+
+
+          <p class="mt-5"  id="linklist"><h1 class="text-center">Other Accommodation Options</h1></p>
+
+
+         <p class="text-center"> There are many other accommodation options including others in the
+          Brooklyn area and others just over the bridge in Manhattan - some with major
+          chains such as other Marriotts, Hilton properties, etc. and independent places,
+          such as VRBO/AirBnBs.Below are just a few hotel options that are in the area.</p>
+          <ul style="line-height:180%" >
+            <li><a href="https://www.hilton.com/en/hotels/nycbohx-hampton-brooklyn-downtown/">Hampton Inn Brooklyn/Downtown</a>
+            
+            </li>
+
+            <li><a href="https://www.marriott.com/en-us/hotels/nycbk-new-york-marriott-at-the-brooklyn-
+              bridge/overview">NY Marriott at the Brooklyn Bridge</a></li>
+
+            <li> <a href=" https://www.marriott.com/en-us/hotels/nycfm-fairfield-inn-and-suites-new-york-
+              manhattan-downtown-east/overview/">Fairfield Inn &amp; Suites NY Manhattan/Downtown</a> </li>
+
+
+            <li> <a href=" https://www.tillaryhotelnyc.com/">The Tillary Hotel, Downtown Brooklyn</a> 
+                   </li>
+              
+          
+          </ul>
+       
+         </p>
+      </div>
+      
+      <button class="accordion h3">Vero & Andy's Brooklyn!</button>
+      <div class="panel">
+        <p class="text-center mt-5">
+          We live in Brooklyn which is just across the East River from Manhattan - you can
+          walk, bike, or take the subway easily between Brooklyn and Manhattan.</p>
+
+          <p class="text-center mt-5">The wedding and reception will take place in the DUMBO (Down Under the
+            Manhattan Bridge Overpass) section of Brooklyn. It is a distinct area of
+            Brooklyn near the East River between the Brooklyn and Manhattan Bridges. 
+            Since people may be staying in Brooklyn and might not be as familiar with the
+            Downtown Brooklyn and DUMBO areas, we wanted to give you some recommendations for our favorite places in our neck of the "woods".</p>
+
+
+
+      </div>
+
+
 
     </div>
 
@@ -96,6 +155,12 @@
 
   </div>
 
+
+
+
+
+
+
 </div>
 
 
@@ -116,7 +181,22 @@
 </div>
 
 
-
+<script>
+  var acc = document.getElementsByClassName("accordion");
+  var i;
+  
+  for (i = 0; i < acc.length; i++) {
+    acc[i].addEventListener("click", function() {
+      this.classList.toggle("active");
+      var panel = this.nextElementSibling;
+      if (panel.style.display === "block") {
+        panel.style.display = "none";
+      } else {
+        panel.style.display = "block";
+      }
+    });
+  }
+  </script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>
